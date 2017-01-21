@@ -15,4 +15,4 @@ RUN gcloud config set --installation component_manager/disable_update_check true
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install -y nodejs
-RUN npm install -g k8s-scripts@3.2.0
+RUN npm install -g k8s-scripts@3.2.1
